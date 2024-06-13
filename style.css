@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    font-family: poppins;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    gap: 4rem;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #282C35;
+    position: sticky;
+
+
+    
+}
+
+.navbar > a{
+    text-decoration: none;
+    font-size: 40px;
+    color: red;
+    position: sticky;
+
+
+    
+}
+.navbar > a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.main{
+    display: flex;
+    height: 70vh;
+    font-family: poppins;
+    font-size: 40px;
+justify-content: center;
+align-items: center;
+background-color:  black;
+color: white;
+}
+
+.main > img{
+    height: 750px;
+    width: 700px;
+    border-radius: 100%;    
+    margin-left: 80px;
+}
+
+#AboutMe{
+    font-family: poppins;
+    font-size: 80px;
+    text-align: center;
+}
+
+.mainname{
+    color: red;
+}
+
+.containeraboutme{
+    background-color: #282C35 ;
+    padding-top: 50px;
+}
+#AboutMe{
+    background-color: #282C35 ;
+    color: red;
+    padding: 80px;
+
+
+}
+
+#aboutme{
+    color: white;
+    font-family: poppins;
+    font-size: 20px;
+    text-align: justify;
+    width: 1800px;
+    margin-left: 450px;
+    font-size: 2rem;
+    padding-bottom: 80px;
+
+}
+
+#ExperienceHead{
+    font-size: 80px;
+    font-family: poppins;
+    text-align: center;
+    padding: 80px;
+
+}
+
+.experience{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    font-family: poppins;
+    text-align: justify;
+    
+}
+
+.experience1{
+    width: 1800px;
+    margin-left: 450px;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+#ExperienceHead{
+    color: red;
+}
+
+#myworks{
+    color: red;
+    font-size: 80px;
+    text-align: center;
+    background-color: #282C35;
+    padding: 80px;
+}
+.works{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+    
+}
+.card{
+    height: 650px;
+    width: 630px;
+    background-color: #282C35;
+    font-size: 40px;
+    font-family: poppins;
+    font-weight: 500;
+    text-align: justify;
+
+    
+}
+.card1 , .card2 ,.card3{
+
+margin-left: 100px;
+margin-top: 150px;
+}
+
+#contacts{
+    background-color: #282C35;
+    color: red;
+    text-align: center;
+    font-size: 80px;
+    padding-bottom: 0;
+
+
+}
+#belowcontactme{
+    background-color: #282C35;
+    color: red;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+#email{
+    font-size: 70px;
+    font-family: poppins;  
+    background-color: #282C35;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+
+
+}
+.connect{
+    display: flex;
+    gap: 3.5rem;
+    justify-content: center;
+    padding-top: 50px;
+
+
+}
+.copyright{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
